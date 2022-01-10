@@ -6,34 +6,34 @@ This calculator outputs a value of United States Dollars (USD) given a weight an
 ## Using the Gold and Silver Calculator
 Under the Output section, type gold_silver_calculator().  Hold shift and press enter to run the calculator.
 
-<img src="images/Screen Shot 2022-01-10 at 5.24.23 PM.png" width="200" height="23">
+<img src="images/Screen Shot 2022-01-10 at 5.24.23 PM.png" width="220" height="23">
 
 
 Select a metal and press enter.
 
-<img src="images/Screen Shot 2022-01-10 at 5.24.52 PM.png" width="210" height="19">
+<img src="images/Screen Shot 2022-01-10 at 5.24.52 PM.png" width="240" height="23">
 
 
 Enter a price and press enter.
 
-<img src="images/Screen Shot 2022-01-10 at 5.25.12 PM.png" width="175" height="17">
+<img src="images/Screen Shot 2022-01-10 at 5.25.12 PM.png" width="220" height="20">
 
 
 Select a weight unit and press enter.
 
-<img src="images/Screen Shot 2022-01-10 at 5.25.31 PM.png" width="210" height="19">
+<img src="images/Screen Shot 2022-01-10 at 5.25.31 PM.png" width="240" height="23">
 
 
 Enter a weight amount and press enter.
 
-<img src="images/Screen Shot 2022-01-10 at 5.28.04 PM.png" width="150" height="18">
+<img src="images/Screen Shot 2022-01-10 at 5.28.04 PM.png" width="160" height="22">
 
 
 Enter a purity and press enter.
 
-<img src="images/Screen Shot 2022-01-10 at 5.28.29 PM.png" width="150" height="18">
+<img src="images/Screen Shot 2022-01-10 at 5.28.29 PM.png" width="160" height="22">
 
 
 The price of your scrap metal will be displayed in USD.
 
-<img src="images/Screen Shot 2022-01-10 at 5.28.47 PM.png" width="80" height="19">
+<img src="images/Screen Shot 2022-01-10 at 5.28.47 PM.png" width="120" height="20">
