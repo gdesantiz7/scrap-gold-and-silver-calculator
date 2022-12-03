@@ -9,7 +9,7 @@ Under the Output section, type gold_silver_calculator().  Hold shift and press e
 <img src="images/Screen Shot 2022-01-10 at 5.24.23 PM.png" width="220" height="23">
 
 
-Select a metal and press enter.
+Enter a metal and press enter.
 
 <img src="images/Screen Shot 2022-01-10 at 5.24.52 PM.png" width="240" height="23">
 
@@ -19,7 +19,7 @@ Enter a price and press enter.
 <img src="images/Screen Shot 2022-01-10 at 5.25.12 PM.png" width="220" height="20">
 
 
-Select a weight unit and press enter.
+Enter a weight unit and press enter.
 
 <img src="images/Screen Shot 2022-01-10 at 5.25.31 PM.png" width="240" height="23">
 
