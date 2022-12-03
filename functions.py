@@ -1,31 +1,31 @@
 def gold_silver_calculator() -> float:
     """Calculate the value of gold and silver in pennyweight (dwt), gram (g), 
     or troy ounce (ozt)"""
-    metal = input("Select Gold or Silver: ")
-    while metal != 'Gold' and metal != 'Silver':
-            print("Must be Gold or Silver")
-            metal = input("Select Gold or Silver: ")
-    if metal == 'Gold':
+    metal = input("Enter gold or silver (case-sensitive): ")
+    while metal != 'gold' and metal != 'silver':
+            print("Must be gold or silver (case-sensitive)")
+            metal = input("Enter gold or silver: ")
+    if metal == 'gold':
         while True:
-            gold_price_troy_ounce = input("Enter Gold Price: ")
+            gold_price_troy_ounce = input("Enter gold price: ")
             try:
                 gold_price_troy_ounce = float(gold_price_troy_ounce)
                 break
             except:
                 print("Must be a number")
-        unit = input("Select dwt, g, or ozt: ")
+        unit = input("Enter dwt, g, or ozt: ")
         while unit != 'dwt' and unit != 'g' and unit != 'ozt':
             print("Must be dwt, g, or ozt")
-            unit = input("Select dwt, g, or ozt: ")
+            unit = input("Enter dwt, g, or ozt: ")
         while True:
-            gold_weight = input("Enter Weight: ")
+            gold_weight = input("Enter weight: ")
             try:
                 gold_weight = float(gold_weight)
                 break
             except:
                 print("Must be a number")
         while True:
-            purity = input("Enter Karats: ")
+            purity = input("Enter karats: ")
             while purity != '8' and purity != '9' and purity != '10' \
             and purity != '11' and purity != '12' and purity != '13' \
             and purity != '14' and purity != '15' and purity != '16' \
@@ -34,7 +34,7 @@ def gold_silver_calculator() -> float:
             and purity != '22' and purity != '23' and purity != '24':
                 print("Must be 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, "
                 "20, 21, 21.6, 22, 23, or 24")
-                purity = input("Enter Karats: ")
+                purity = input("Enter karats: ")
             purity = int(purity)
             break
         if unit == 'ozt':
@@ -203,25 +203,25 @@ def gold_silver_calculator() -> float:
                                          * gold_weight)
     else:
         while True:
-            silver_price_troy_ounce = input("Enter Silver Price: ")
+            silver_price_troy_ounce = input("Enter silver price: ")
             try:
                 silver_price_troy_ounce = float(silver_price_troy_ounce)
                 break
             except:
                 print("Must be a number")
-        unit = input("Select dwt, g, or ozt: ")
+        unit = input("Enter dwt, g, or ozt: ")
         while unit != 'dwt' and unit != 'g' and unit != 'ozt':
             print("Must be dwt, g, or ozt")
-            unit = input("Select dwt, g, or ozt: ")
+            unit = input("Enter dwt, g, or ozt: ")
         while True:
-            silver_weight = input("Enter Weight: ")
+            silver_weight = input("Enter weight: ")
             try:
                 silver_weight = float(silver_weight)
                 break
             except:
                 print("Must be a number")
         while True:
-            purity = input("Enter Purity: ")
+            purity = input("Enter purity: ")
             while purity != '750' and purity != '800' and purity != '830' \
             and purity != '850' and purity != '875' and purity != '900' \
             and purity != '910' and purity != '920' and purity != '925' \
@@ -230,7 +230,7 @@ def gold_silver_calculator() -> float:
             and purity != '970' and purity != '980' and purity != '999':
                 print("Must be 750, 800, 830, 850, 875, 900, 910, 920, 925, "
                 "930, 935, 940, 950, 9584, 960, 970, 980, or 999")
-                purity = input("Enter Purity: ")
+                purity = input("Enter purity: ")
             purity = int(purity)
             break
         if unit == 'ozt':
